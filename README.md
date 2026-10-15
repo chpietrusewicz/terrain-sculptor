@@ -9,6 +9,12 @@
 
 ---
 
+## 🌐 Live Demo
+
+Try Terrain Sculptor online: [Open the deployed app](https://a4-creativecoding.onrender.com/)
+
+---
+
 ## 🌟 Overview
 
 **Terrain Sculptor** is a web-based procedural generation tool that renders 3D landscape meshes directly in the browser. By leveraging **Three.js** for WebGL rendering and **Simplex Noise** algorithms, users can manipulate mathematical terrain parameters in real time to generate endless unique landscape variations.
@@ -20,11 +26,16 @@
 * **Real-time 3D Mesh Generation:** Renders 3D terrain geometry dynamically utilizing WebGL via Three.js.
 * **Procedural Noise Algorithms:** Uses Multi-octave **Simplex Noise** paired with the **Alea** PRNG engine to create natural-looking landforms, mountain peaks, and elevation maps.
 * **Interactive Parameter Tuning:** Powered by **Tweakpane**, allowing users to fine-tune parameters on the fly:
-  * **Frequency:** Controls the scale/size of terrain features.
+  * **Frequency:** Controls the size of terrain features.
   * **Elevation:** Controls peak heights.
-  * **Octaves:** Layered noise passes for high-frequency surface detail.
-  * **Smoothing:** Algorithmic post-processing passes to soften terrain edges.
-  * **Seed:** Generates deterministic terrain layouts.
+  * **Octaves:** Controls how many layers of detail are added on top.
+  * **Smoothing:** Controls the number of passes to soften terrain edges.
+  * **Wireframe:** Enable/disable a wireframe view of the terrain.
+  * **Color:** Change the color of the terrain.
+  * **Radius:** Distance before terrain falloff is zero.
+  * **Falloff Sharpness:** Control how quickly the terrain size shrinks to zero.
+  * **Sea Level:** Control the height of the water plane.
+* **Seeds:** Button to generate a new layout of terrain. 
 * **Camera Orbit Controls:** Orbit camera controls with drag-to-rotate, pan, and scroll-to-zoom navigation.
 
 ---
@@ -47,7 +58,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/chpietrusewicz/a4-creativecoding.git
+   git clone https://github.com/chpietrusewicz/terrain-sculpter.git
    cd a4-creativecoding
    npm install
    node server.js
