@@ -47,9 +47,11 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/chpietrusewicz/a4-creativecoding.git](https://github.com/chpietrusewicz/a4-creativecoding.git)
+   git clone https://github.com/chpietrusewicz/a4-creativecoding.git
    cd a4-creativecoding
    npm install
    node server.js
-Open http://localhost:3000 in your browser.
+   ```
+2. **Open the application:**
+   Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
