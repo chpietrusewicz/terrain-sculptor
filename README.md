@@ -35,7 +35,7 @@ Try Terrain Sculptor online: [Open the deployed app](https://a4-creativecoding.o
   * **Radius:** Distance before terrain falloff is zero.
   * **Falloff Sharpness:** Control how quickly the terrain size shrinks to zero.
   * **Sea Level:** Control the height of the water plane.
-* **Seeds:** Button to generate a new layout of terrain. 
+* **Seed:** Generate a new terrain layout using a randomized seed.
 * **Camera Orbit Controls:** Orbit camera controls with drag-to-rotate, pan, and scroll-to-zoom navigation.
 
 ---
@@ -58,8 +58,8 @@ Try Terrain Sculptor online: [Open the deployed app](https://a4-creativecoding.o
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/chpietrusewicz/terrain-sculpter.git
-   cd a4-creativecoding
+   git clone https://github.com/chpietrusewicz/terrain-sculptor.git
+   cd terrain-sculptor
    npm install
    node server.js
    ```
