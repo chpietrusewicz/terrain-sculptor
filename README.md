@@ -25,7 +25,7 @@
   * **Octaves:** Layered noise passes for high-frequency surface detail.
   * **Smoothing:** Algorithmic post-processing passes to soften terrain edges.
   * **Seed:** Generates deterministic terrain layouts.
-* **Camera Orbit Controls:** Full 360° pan, tilt, drag, and zoom navigation.
+* **Camera Orbit Controls:** Orbit camera controls with drag-to-rotate, pan, and scroll-to-zoom navigation.
 
 ---
 
@@ -41,7 +41,7 @@
 ## 🚀 Getting Started
 
 ### Prerequisites
-* [Node.js](https://nodejs.org/) (v16 or higher)
+* Node.js and npm
 
 ### Setup Instructions
 
@@ -49,3 +49,7 @@
    ```bash
    git clone [https://github.com/chpietrusewicz/a4-creativecoding.git](https://github.com/chpietrusewicz/a4-creativecoding.git)
    cd a4-creativecoding
+   npm install
+   node server.js
+Open http://localhost:3000 in your browser.
+
